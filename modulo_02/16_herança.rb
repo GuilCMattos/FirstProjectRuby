@@ -25,3 +25,8 @@ p1.email = "mttsguil@gmail.com"
 p1.cpf = "394.555.234.09"
 puts "#{p1.nome} #{p1.email} #{p1.cpf}" 
 puts p1.falar("Salve")
+
+p2 = PessoaJuridica.new 
+p2.nome = "Guilherme2"
+p2.email = "mttsguil2@gmail.com"
+
